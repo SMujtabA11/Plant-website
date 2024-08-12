@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:Popins;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+nav{
+    width: auto;
+    display:flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+nav>#logo-div{
+    display: flex;
+    align-items: center;
+    font-family:'Poppins'
+}
+nav>#menu-div{
+    margin-left: -30px;
+}
+nav>#menu-div>a{
+    margin-left: 40px;
+    color: black;
+    text-decoration: none;
+}
+nav>#btn-div{
+    margin-right:70px;
+    display: flex;
+    align-items: center;
+}
+nav>#btn-div>button{
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor:pointer;
+    width: 60px;
+}
+#hero_div{
+width: auto;
+height:500px;
+background-image:url(./Assests/Untitled\ design.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+font-family: 'popins';
+padding:50px 0px 0px 40px;
+}
+#hero_div>h1,p,#btn{
+    margin-bottom:20px;
+}
+#hero_div>#btn{
+    border-radius: 3px;
+    background-color:rgba(30, 53, 0, 1);
+    color: white;
+    padding: 5px;
+}
+#hero_div>p{
+    font-size: 12px;
+    font-weight: bold;
+}
+h2{
+    color:rgba(30, 53, 0, 1);
+    margin: 20px 0px 10px 20px;
+}
+.featured_plantdiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap:20px;
+}
+.featured_plantdiv>div{
+    width:200px;
+    height: 280px;
+    padding-left: 40px;
+    margin-bottom: 0px;
+    position: relative;
+}
+.featured_plantdiv>div>img,p{
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.featured_plantdiv>div>#rate{
+    color:rgb(179, 189, 21);
+}
+.featured_plantdiv>div>#cart{
+    position: absolute;
+    background-color: white;
+    border-radius:100px;
+    top: 130px;
+    left: 150px;
+}
+.plant_showcase{
+    display: flex;
+    margin-top: 2px;
+    background-color: aliceblue;
+    padding-top: -10px;
+}
